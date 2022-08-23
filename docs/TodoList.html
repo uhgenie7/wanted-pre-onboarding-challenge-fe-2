@@ -5,7 +5,7 @@
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Global</title>
+  <title> TodoList</title>
 
   <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -70,15 +70,15 @@
             
             <nav>
                 
-                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Global</h3><ul><li><a href="global.html#createTodoItem">createTodoItem</a></li><li><a href="global.html#deleteTodoItem">deleteTodoItem</a></li><li><a href="global.html#getTodoItemById">getTodoItemById</a></li><li><a href="global.html#getTodoList">getTodoList</a></li><li><a href="global.html#updateTodoItem">updateTodoItem</a></li></ul></div>
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Namespaces</h3><ul><li><a href="TodoList.html">TodoList</a></li></ul></div>
                 
             </nav>
         </div>
         <div class="core" id="main-content-wrapper">
             <div class="content">
                 <header class="page-title">
-                    <p></p>
-                    <h1>Global</h1>
+                    <p>Namespace</p>
+                    <h1>TodoList</h1>
                 </header>
                 
 
@@ -89,7 +89,7 @@
 
 <header>
     
-        <h2></h2>
+        <h2>TodoList</h2>
         
     
 </header>
@@ -134,6 +134,13 @@
     
 
     
+        <p class="tag-source">
+            <a href="todolist.js.html" class="button">View Source</a>
+            <span>
+                <a href="todolist.js.html">todolist.js</a>, <a href="todolist.js.html#line4">line 4</a>
+            </span>
+        </p>
+    
 </dl>
 
 
@@ -154,6 +161,107 @@
     
 
     
+        <div class='vertical-section'>
+            <h1>Members</h1>
+            <div class="members">
+            
+                <div class="member">
+
+    <span class="method-parameter is-pulled-right">
+        <label>Type:</label>
+        
+<code class="param-type">Object</code>
+
+
+    </span>
+
+<h4 class="name" id=".Todo">
+    <a class="href-link" href="#.Todo">#</a>
+    
+        
+            <span class='tag'>static</span>
+        
+    
+    <span class="code-name">
+        Todo
+    </span>
+    
+</h4>
+
+
+
+
+<div class="description">
+    <p>Todo Modeling</p>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="todolist.js.html" class="button">View Source</a>
+            <span>
+                <a href="todolist.js.html">todolist.js</a>, <a href="todolist.js.html#line16">line 16</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+    <h5>Example</h5>
+    
+    
+        <pre class="prettyprint"><code>Todo {
+   id,
+   content,
+   isDone,
+   category,
+   hashtag
+}</code></pre>
+    
+
+
+</div>
+            
+            </div>
+        </div>
+    
 
     
         <div class='vertical-section'>
@@ -164,8 +272,12 @@
 
 
     
-    <h4 class="name" id="createTodoItem">
-        <a class="href-link" href="#createTodoItem">#</a>
+    <h4 class="name" id=".createTodoItem">
+        <a class="href-link" href="#.createTodoItem">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
         
         <span class="code-name">
             
@@ -356,9 +468,9 @@
 
     
         <p class="tag-source">
-            <a href="index.js.html" class="button">View Source</a>
+            <a href="todolist.js.html" class="button">View Source</a>
             <span>
-                <a href="index.js.html">index.js</a>, <a href="index.js.html#line26">line 26</a>
+                <a href="todolist.js.html">todolist.js</a>, <a href="todolist.js.html#line37">line 37</a>
             </span>
         </p>
     
@@ -390,12 +502,16 @@
 
 
     
-    <h4 class="name" id="deleteTodoItem">
-        <a class="href-link" href="#deleteTodoItem">#</a>
+    <h4 class="name" id=".deleteTodoItem">
+        <a class="href-link" href="#.deleteTodoItem">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
         
         <span class="code-name">
             
-                deleteTodoItem<span class="signature">()</span><span class="type-signature"></span>
+                deleteTodoItem<span class="signature">(id)</span><span class="type-signature"></span>
             
         </span>
     </h4>
@@ -416,6 +532,57 @@
 
 
 
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>id</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">string</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"><p>todo id</p></td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
+
 
 
 
@@ -453,9 +620,9 @@
 
     
         <p class="tag-source">
-            <a href="index.js.html" class="button">View Source</a>
+            <a href="todolist.js.html" class="button">View Source</a>
             <span>
-                <a href="index.js.html">index.js</a>, <a href="index.js.html#line50">line 50</a>
+                <a href="todolist.js.html">todolist.js</a>, <a href="todolist.js.html#line53">line 53</a>
             </span>
         </p>
     
@@ -487,12 +654,16 @@
 
 
     
-    <h4 class="name" id="getTodoItemById">
-        <a class="href-link" href="#getTodoItemById">#</a>
+    <h4 class="name" id=".getTodoItemById">
+        <a class="href-link" href="#.getTodoItemById">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
         
         <span class="code-name">
             
-                getTodoItemById<span class="signature">()</span><span class="type-signature"></span>
+                getTodoItemById<span class="signature">(id)</span><span class="type-signature"></span>
             
         </span>
     </h4>
@@ -501,7 +672,7 @@
     
     
     <div class="description">
-        <p>단일 할일을 조회하는 함수</p>
+        <p>ID를 기반으로 특정 할 일을 조회할 수 있는 함수.</p>
     </div>
     
 
@@ -513,6 +684,57 @@
 
 
 
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>id</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">string</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last"><p>todo id</p></td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
+
 
 
 
@@ -550,9 +772,9 @@
 
     
         <p class="tag-source">
-            <a href="index.js.html" class="button">View Source</a>
+            <a href="todolist.js.html" class="button">View Source</a>
             <span>
-                <a href="index.js.html">index.js</a>, <a href="index.js.html#line38">line 38</a>
+                <a href="todolist.js.html">todolist.js</a>, <a href="todolist.js.html#line28">line 28</a>
             </span>
         </p>
     
@@ -584,8 +806,12 @@
 
 
     
-    <h4 class="name" id="getTodoList">
-        <a class="href-link" href="#getTodoList">#</a>
+    <h4 class="name" id=".getTodoList">
+        <a class="href-link" href="#.getTodoList">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
         
         <span class="code-name">
             
@@ -598,7 +824,7 @@
     
     
     <div class="description">
-        <p>모든 할일을 조회하는 함수</p>
+        <p>모든 할일을 조회하는 함수.</p>
     </div>
     
 
@@ -647,9 +873,9 @@
 
     
         <p class="tag-source">
-            <a href="index.js.html" class="button">View Source</a>
+            <a href="todolist.js.html" class="button">View Source</a>
             <span>
-                <a href="index.js.html">index.js</a>, <a href="index.js.html#line32">line 32</a>
+                <a href="todolist.js.html">todolist.js</a>, <a href="todolist.js.html#line21">line 21</a>
             </span>
         </p>
     
@@ -681,12 +907,16 @@
 
 
     
-    <h4 class="name" id="updateTodoItem">
-        <a class="href-link" href="#updateTodoItem">#</a>
+    <h4 class="name" id=".updateTodoItem">
+        <a class="href-link" href="#.updateTodoItem">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
         
         <span class="code-name">
             
-                updateTodoItem<span class="signature">()</span><span class="type-signature"></span>
+                updateTodoItem<span class="signature">(category, content, hashtag<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span>
             
         </span>
     </h4>
@@ -707,6 +937,135 @@
 
 
 
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+            <th>Attributes</th>
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>category</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">string</code>
+
+
+  
+  </td>
+
+  
+      <td class="attributes">
+      
+
+      
+
+      
+      </td>
+  
+
+  
+
+  <td class="description last"><p>카테고리</p></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>content</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">string</code>
+
+
+  
+  </td>
+
+  
+      <td class="attributes">
+      
+
+      
+
+      
+      </td>
+  
+
+  
+
+  <td class="description last"><p>할일 내용</p></td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>hashtag</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">string</code>
+
+
+  
+  </td>
+
+  
+      <td class="attributes">
+      
+          &lt;optional><br>
+      
+
+      
+
+      
+      </td>
+  
+
+  
+
+  <td class="description last"><p>해시 태그</p></td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
+
 
 
 
@@ -744,9 +1103,9 @@
 
     
         <p class="tag-source">
-            <a href="index.js.html" class="button">View Source</a>
+            <a href="todolist.js.html" class="button">View Source</a>
             <span>
-                <a href="index.js.html">index.js</a>, <a href="index.js.html#line44">line 44</a>
+                <a href="todolist.js.html">todolist.js</a>, <a href="todolist.js.html#line46">line 46</a>
             </span>
         </p>
     
