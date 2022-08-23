@@ -75,4 +75,5 @@ Item {
 #### Reference
 
 - [use JSDoc](https://jsdoc.app)
-- [JSDoc Boilerplate](https://github.com/pocojang/jsdoc-boilerplate)
+- [use JSDoc_Kr](https://runebook.dev/ko/docs/jsdoc/-index-)
+- [JSDoc을 멋지게 사용한 오라클](https://docs.oracle.com/en/database/oracle/apex/22.1/aexjs/index.html)
