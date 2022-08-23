@@ -9,6 +9,7 @@
   "author": "HyejinUm <uhj1993@naver.com>",
   "license": "MIT",
   "devDependencies": {
+    "better-docs": "2.7.2",
     "jsdoc": "3.6.11"
   }
 }
