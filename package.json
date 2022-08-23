@@ -1,0 +1,14 @@
+{
+  "name": "wanted-pre-onboarding-challenge-fe-2",
+  "version": "0.1.0",
+  "main": "index.js",
+  "script": {
+    "docs": "jsdoc -c jsdoc.config.json"
+  },
+  "repository": "git@github.com-study:uhj1993/wanted-pre-onboarding-challenge-fe-2.git",
+  "author": "HyejinUm <uhj1993@naver.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jsdoc": "3.6.11"
+  }
+}
