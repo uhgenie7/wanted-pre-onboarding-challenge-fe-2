@@ -1,4 +1,8 @@
-# wanted-pre-onboarding-challenge-fe-2
+# TodoList with JsDoc
+
+## 요구 사항
+
+[요구 사항](https://github.com/uhj1993/wanted-pre-onboarding-challenge-fe-2/wiki/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD)
 
 ## 챌린지 과제 가이드
 
