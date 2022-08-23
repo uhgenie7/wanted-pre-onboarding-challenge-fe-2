@@ -17,13 +17,34 @@ const model = {
 };
 
 /**
- * "할일내용: ${content}"을 반환하는 함수
- *
- * @param {category} category - 카테고리
+ * 할일을 생성하는 함수
+ * @function
+ * @param {string} category - 카테고리
  * @param {string} content - 할일 내용
- * @param {?hashtag} hashtag - 해시 태그
- * @returns {string} - 할일제목: title, 할일내용: content
+ * @param {string} [hashtag] - 해시 태그
  */
-function createTodoItem(content, category, hashtag) {
-  return `${category} : 할일내용: ${content} 태그: ${hashtag}`;
-}
+function createTodoItem(content, category, hashtag) {}
+
+/**
+ * 모든 할일을 조회하는 함수
+ * @function
+ */
+function getTodoList() {}
+
+/**
+ * 단일 할일을 조회하는 함수
+ * @function
+ */
+function getTodoItemById() {}
+
+/**
+ * 할일을 수정하는 함수
+ * @function
+ */
+function updateTodoItem() {}
+
+/**
+ * 할일을 삭제하는 함수
+ * @function
+ */
+function deleteTodoItem() {}
