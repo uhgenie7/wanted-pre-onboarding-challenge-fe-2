@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Home</title>
+
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./build/entry.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700|Inconsolata,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/iframe.css">
+  <link type="text/css" rel="stylesheet" href="">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  
+</head>
+
+
+
+<body class="layout small-header">
+    <div id="stickyNavbarOverlay"></div>
+    
+
+<div class="top-nav">
+    <div class="inner">
+        <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="logo">
+            
+            
+        </div>
+        <div class="menu">
+            
+            <div class="navigation">
+                <a
+                    href="index.html"
+                    class="link"
+                >
+                    Documentation
+                </a>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="main">
+        <div
+            class="sidebar "
+            id="sidebarNav"
+        >
+            
+                <div class="search-wrapper">
+                    <input id="search" type="text" placeholder="Search docs..." class="input">
+                </div>
+            
+            <nav>
+                
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Global</h3><ul><li><a href="global.html#clearTodoList">clearTodoList</a></li><li><a href="global.html#createTodoItem">createTodoItem</a></li><li><a href="global.html#deleteTodoItem">deleteTodoItem</a></li><li><a href="global.html#getTodoItemById">getTodoItemById</a></li><li><a href="global.html#getTodoList">getTodoList</a></li><li><a href="global.html#updateTodoItem">updateTodoItem</a></li></ul></div>
+                
+            </nav>
+        </div>
+        <div class="core" id="main-content-wrapper">
+            <div class="content">
+                <header class="page-title">
+                    <p></p>
+                    <h1>Home</h1>
+                </header>
+                
+
+
+
+    
+
+
+    <h3> </h3>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <section>
+        <article><h1>TodoList with JsDoc</h1>
+<h2>요구 사항</h2>
+<p><a href="https://github.com/uhj1993/wanted-pre-onboarding-challenge-fe-2/wiki/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD">요구 사항</a></p>
+<h2>챌린지 과제 가이드</h2>
+<blockquote>
+<p>요구 사항을 구현하지 않고 설계만합니다.</p>
+</blockquote>
+<ul>
+<li>Todo 앱을 JSDoc으로 문서화하는 챌린지 과제입니다.</li>
+<li>모든 요구사항은 JSDoc을 기반으로 수행합니다.</li>
+<li>제출할 저장소 명은 wanted-pre-onboarding-challenge-fe-2로 생성해 주세요. (Public 권한 필요)</li>
+<li>완성한 과제의 저장소 링크를 모집 마감 후 설문 조사를 통해 제출해주세요. (개강 시 설문 조사 링크 전달 예정)</li>
+<li>과제 수행 개수에 따라 기본적인 평가가 이루어지며, 커리큘럼 운영 과정에서 최소한의 수준을 파악하기 위한 용도입니다.</li>
+<li>해당 과제에 대한 해설은 개강 후 진행될 예정입니다.</li>
+<li>README.md를 꼭 작성해 주세요. 본인에 대한 소개나 프로젝트 소개 등 자유롭게 작성해주시면 됩니다.</li>
+<li>JSDoc 환경 구성에 어색한 경우 <a href="https://github.com/pocojang/jsdoc-boilerplate">Boilerplate</a>를 이용하셔도 됩니다</li>
+</ul>
+<h2>📝 Requirements</h2>
+<h3>필수 요구사항</h3>
+<blockquote>
+<p>아래의 Todo 앱 요구사항을 참고하여</p>
+</blockquote>
+<ul>
+<li>[ ] 필요한 데이터를 모두 모델링한다.</li>
+<li>[ ] 사용되는 모든 함수를 <code>선언부만</code> 만든다.
+<ul>
+<li>함수 및 클래스의 내부는 구현하지 않습니다.</li>
+</ul>
+</li>
+<li>[ ] <code>JSDoc</code>을 활용해 문서화한다.</li>
+<li>[ ] <code>GitHub Page</code>를 활용해 <code>JSDoc</code> 정적 페이지를 배포한다.</li>
+</ul>
+<h3>Todo</h3>
+<pre class="prettyprint source lang-js"><code>Todo {
+  아이디(required),
+  내용(required),
+  완료여부(required),
+  카테고리(required),
+  태그들(optional),
+}
+</code></pre>
+<h4>CREATE</h4>
+<ul>
+<li>[ ] 할 일을 추가할 수 있다.</li>
+<li>[ ] 내용없이 추가할 수 없다.</li>
+</ul>
+<h4>READ</h4>
+<ul>
+<li>[ ] 모든 할 일을 조회할 수 있다.</li>
+<li>[ ] ID를 기반으로 특정 할 일을 조회할 수 있다.</li>
+</ul>
+<h4>UPDATE</h4>
+<ul>
+<li>[ ] ID를 제외한 모든 속성을 수정할 수 있다.</li>
+<li>[ ] 특정 할 일의 특정 태그를 수정할 수 있다.</li>
+</ul>
+<h4>DELETE</h4>
+<ul>
+<li>[ ] ID를 기반으로 특정 할 일을 삭제할 수 있다.</li>
+<li>[ ] 모든 할 일을 제거할 수 있다.</li>
+<li>[ ] 특정 할 일의 특정 태그를 삭제할 수 있다.</li>
+<li>[ ] 특정 할 일의 모든 태그를 제거할 수 있다.</li>
+</ul>
+<h4>Modeling (Shape)</h4>
+<pre class="prettyprint source lang-js"><code>Item {
+  property(required),
+  property(optional),
+}
+</code></pre>
+<h4>Reference</h4>
+<ul>
+<li><a href="https://jsdoc.app">use JSDoc</a></li>
+<li><a href="https://runebook.dev/ko/docs/jsdoc/-index-">use JSDoc_Kr</a></li>
+<li><a href="https://docs.oracle.com/en/database/oracle/apex/22.1/aexjs/index.html">JSDoc을 멋지게 사용한 오라클</a></li>
+</ul></article>
+    </section>
+
+
+
+
+
+
+            </div>
+            
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.11</a></p>
+                    <p class="sidebar-created-by">
+                        <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by
+                        <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers - JavaScript Development Agency</a>
+                    </p>
+                </div>
+            </footer>
+            
+        </div>
+        <div id="side-nav" class="side-nav">
+        </div>
+    </div>
+<script src="scripts/app.min.js"></script>
+<script>PR.prettyPrint();</script>
+<script src="scripts/linenumber.js"> </script>
+
+<script src="scripts/search.js"> </script>
+
+
+</body>
+</html>
