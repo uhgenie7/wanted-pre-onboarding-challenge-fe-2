@@ -2,8 +2,9 @@
   "name": "wanted-pre-onboarding-challenge-fe-2",
   "version": "0.1.0",
   "main": "index.js",
-  "script": {
+  "scripts": {
     "docs": "jsdoc -c jsdoc.config.json",
+    "predeploy": "yarn docs",
     "deploy": "gh-pages -d docs"
   },
   "repository": "git@github.com-study:uhj1993/wanted-pre-onboarding-challenge-fe-2.git",
