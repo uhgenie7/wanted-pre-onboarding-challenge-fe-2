@@ -1,4 +1,8 @@
-# wanted-pre-onboarding-challenge-fe-2
+# TodoList with JsDoc
+
+## 요구 사항
+
+[요구 사항](https://github.com/uhj1993/wanted-pre-onboarding-challenge-fe-2/wiki/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD)
 
 ## 챌린지 과제 가이드
 
@@ -71,4 +75,5 @@ Item {
 #### Reference
 
 - [use JSDoc](https://jsdoc.app)
-- [JSDoc Boilerplate](https://github.com/pocojang/jsdoc-boilerplate)
+- [use JSDoc_Kr](https://runebook.dev/ko/docs/jsdoc/-index-)
+- [JSDoc을 멋지게 사용한 오라클](https://docs.oracle.com/en/database/oracle/apex/22.1/aexjs/index.html)

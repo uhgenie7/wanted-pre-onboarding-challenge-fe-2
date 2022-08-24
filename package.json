@@ -1,0 +1,19 @@
+{
+  "name": "wanted-pre-onboarding-challenge-fe-2",
+  "version": "0.1.0",
+  "main": "index.js",
+  "script": {
+    "docs": "jsdoc -c jsdoc.config.json",
+    "deploy": "gh-pages -d docs"
+  },
+  "repository": "git@github.com-study:uhj1993/wanted-pre-onboarding-challenge-fe-2.git",
+  "author": "HyejinUm <uhj1993@naver.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "better-docs": "2.7.2",
+    "jsdoc": "3.6.11"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
